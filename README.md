@@ -20,8 +20,24 @@ How efficiently does the model predict the crash severity compared to actuall se
 
 The dataset for this project was sourced from the Louisiana Department of Transportation and Development (LA DOTD), covering detailed records of traffic accidents from 2016 to 2021. Each record in the dataset provides comprehensive details about each traffic accident, including geographic coordinates, road conditions, vehicle characteristics, driver demographics, environmental factors, and the severity of the crash. The dataset contains approximately 49,336 records with 54 features, ensuring a rich basis for analysis. Among these 54 features 30 of them (24 categorical, 3 numerical, and 3 boolean) were selected for the purpose of this study. Here is the dictionary for data set: 
 
-|     Feature Name     |                              Description                              |     Data Type     |
-|     Crash Severity   |                                                                       |                   |                   
+| Feature Name        | Description                                                    | Data Type   |
+|---------------------|----------------------------------------------------------------|-------------|
+| Crash_ID            | Unique identifier for each crash                               | Categorical |
+| Crash_Severity      | Severity level of the crash (e.g., minor, severe, fatal)        | Categorical |
+| Date                | Date of the crash                                              | Date        |
+| Time                | Time of the crash                                              | Time        |
+| Latitude            | Latitude of the crash location                                 | Numerical   |
+| Longitude           | Longitude of the crash location                                | Numerical   |
+| Weather_Condition   | Weather condition at the time of the crash                     | Categorical |
+| Road_Surface        | Condition of the road surface (e.g., dry, wet, icy)             | Categorical |
+| Vehicle_Type        | Type of vehicle involved (e.g., car, truck, motorcycle)         | Categorical |
+| Driver_Age          | Age of the driver involved in the crash                        | Numerical   |
+| Alcohol_Involved    | Whether alcohol was involved (True/False)                      | Boolean     |
+| Speed_Limit         | Speed limit at the location of the crash                       | Numerical   |
+| Crash_Location      | Location description (e.g., intersection, highway)             | Categorical |
+| Light_Condition     | Lighting conditions (e.g., day, night, dawn)                   | Categorical |
+| Road_Type           | Type of road (e.g., urban, rural, freeway)                     | Categorical |
+                                                                   |                   |                   
 
 ## Modelling Overview
 
