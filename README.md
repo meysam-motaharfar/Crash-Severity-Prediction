@@ -22,34 +22,34 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 
 | Feature Name        | Description                                                    | Data Type   |
 |---------------------|----------------------------------------------------------------|-------------|
-| SEVERITY_CD         | Unique identifier for each crash                               | Categorical |
-| ROAD_COND_CD        | Road conditions at the time of the crash                       | Categorical |
-| ROAD_TYPE_CD        | Type of road where the crash occurred                          | Categorical |
-| SURF_COND_CD        | Surface condition of the road                                  | Categorical |
-| SURF_TYPE_CD        | Type of road surface                                           | Categorical |
-| PAVEMENT_TYPE       | Type of pavement on the road                                   | Categorical |
+| SEVERITY_CD         | The severity of crashes (fatal, severe, moderate, complaint and no injury)                             | Categorical |
+| ROAD_COND_CD        | Road conditions at the time of the crash (e.g., bumps, holes)                      | Categorical |
+| ROAD_TYPE_CD        | Type of road where the crash occurred (e.g., one way road, two-way road with a physical separation)                         | Categorical |
+| SURF_COND_CD        | Surface condition of the road (e.g., dry, wet, ice)                               | Categorical |
+| SURF_TYPE_CD        | Type of road surface (e.g., dirt, gravel, concrete)                                          | Categorical |
+| PAVEMENT_TYPE       | Type of pavement on the road (gravel, graded, brick)                                  | Categorical |
 | SHOULDER_TYPE_PRI   | Type of shoulder on the road                                   | Categorical |
-| PRI_ROAD_TYPE       | Primary road type at the crash location                        | Categorical |
-| ROAD_REL_CD         | Relation of crash to the road (e.g., junction)                 | Categorical |
+| PRI_ROAD_TYPE       | Primary road type at the crash location (e.g, street, highway)                       | Categorical |
+| ROAD_REL_CD         | Relation of crash to the road (e.g., shoulder, median)                 | Categorical |
 | ALIGNMENT_CD        | Road alignment (e.g., straight, curve)                         | Categorical |
 | ACCESS_CNTL_CD      | Type of access control at the crash location                   | Categorical |
-| INTERSECTION        | Whether the crash occurred at an intersection                  | Categorical |
-| VEH_COND_CD         | Condition of the vehicle involved in the crash                 | Categorical |
+| VEH_COND_CD         | Condition of the vehicle involved in the crash (defective break, defective headlights)                | Categorical |
 | VEH_LIGHTING_CD     | Vehicle lighting condition during the crash                    | Categorical |
-| VEH_TYPE_CD         | Type of vehicle involved in the crash                          | Categorical |
+| VEH_TYPE_CD         | Type of vehicle involved in the crash (e.g., SUV, truck, school bus)                         | Categorical |
 | DR_SEX              | Driver's sex                                                   | Categorical |
-| LIGHTING_CD         | Lighting conditions during the crash                           | Categorical |
-| WEATHER_CD          | Weather conditions at the time of the crash                    | Categorical |
-| TRAFF_CNTL_CD       | Type of traffic control at the crash site                      | Categorical |
+| LIGHTING_CD         | Lighting conditions during the crash (e.g, daylight, dark, dusk)                          | Categorical |
+| WEATHER_CD          | Weather conditions at the time of the crash (e.g, clear, cloudy, rain, foggy)                  | Categorical |
+| TRAFF_CNTL_CD       | Type of traffic control at the crash site (e.g., stop sign, yield sign, red signal on)                     | Categorical |
 | TRAFF_CNTL_COND_CD  | Condition of the traffic control at the crash site             | Categorical |
-| VIOLATIONS_CD       | Any traffic violations related to the crash                    | Categorical |
-| VISION_OBSCURE_CD   | Factors that obscured vision (e.g., glare, objects)            | Categorical |
+| VIOLATIONS_CD       | Any traffic violations related to the crash (e.e., failure to yield, failure to signal)                    | Categorical |
+| VISION_OBSCURE_CD   | Factors that obscured vision (e.g., rain, building, parked vehicles)            | Categorical |
 | ACCESS_CNTL_CD      | Access control at the location of the crash                    | Categorical |
 | MAN_COLL_CD         | Manner of collision (e.g., head-on, rear-end)                  | Categorical |
 | DR_AGE              | Age of the driver involved in the crash                        | Numerical   |
 | LATITUDE            | Latitude of the crash location                                 | Numerical   |
 | LONGITUDE           | Longitude of the crash location                                | Numerical   |
 | PEDESTRIAN          | Whether pedestrians were involved                              | Boolean     |
+| INTERSECTION        | Whether the crash occurred at an intersection                  | Bolean |
 | ALCOHOL             | Whether alcohol was involved                                   | Boolean     |
 | DRUGS               | Whether drugs were involved                                    | Boolean     |
 
