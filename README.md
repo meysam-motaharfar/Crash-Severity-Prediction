@@ -56,13 +56,13 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 | DRUGS               | Whether drugs were involved                                    | Boolean     |
 
 
-## Modelling Overview
+## Data Preprocessing and Visulaization
 
+## Model Development 
 
-## Results and Conclusion 
+## Results and Conclusion
 
-
-### Future Iterations:
+## Challenges and Future Directions
 
 
 
