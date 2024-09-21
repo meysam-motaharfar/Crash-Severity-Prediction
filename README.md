@@ -58,7 +58,7 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 
 ## Data Preprocessing and Visulaization
 
-![The number of crashes for different severity conditions](Figs/The number of crashes for different severity conditions.jpg)
+![The number of crashes for different severity conditions](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/The%20number%20of%20crashes%20for%20different%20severity%20conditions.jpg)
 
 ## Model Development 
 
