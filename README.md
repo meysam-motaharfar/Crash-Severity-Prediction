@@ -58,12 +58,16 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 
 ## Data Preprocessing and Visulaization
 
+![image](https://github.com/user-attachments/assets/da538a9b-f71e-4e1c-bbcb-e540dfd9743d)
+
 ## Model Development 
 
 ## Results and Conclusion
 
-<img width="539" alt="image" src="https://github.com/user-attachments/assets/fc893868-badd-4d4b-a67f-71fc346dadd8">
-
+<div style="text-align: center;">
+    <img width="700" alt="image" src="https://github.com/user-attachments/assets/fc893868-badd-4d4b-a67f-71fc346dadd8">
+</div>
+  
 ## Challenges and Future Directions
 
 
