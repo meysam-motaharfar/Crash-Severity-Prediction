@@ -7,7 +7,7 @@ AUTHORS: Meysam Motaharfar and Mohammad Ali Izadifar
 1. [Project Overview](#project-overview)
 2. [Data Preprocessing](#data-gathering-and-preprocessing)
 3. [Data Visualization](#data-visualization)
-5. [Modelling Overview](#modelling-overview)
+5. [Modelling](#modelling-overview)
 6. [Results and Conclusion](#results-and-conclusion)
 
 ## Project Overview
