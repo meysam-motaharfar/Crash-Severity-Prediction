@@ -4,12 +4,13 @@ Predicting Crash Severity in Baton Rouge
 AUTHORS: Meysam Motaharfar and Mohammad Ali Izadifar
 
 ### Table of Contents
-1. [Project Overview](#project-overview)
+1. [Project Overview](#Project-Overview)
 2. [Dataset Overview and Feature Dictionary](#Dataset-Overview-and-Feature-Dictionary)
-3. [Data Preprocessing](#data-gathering-and-preprocessing)
-4. [Data Visualization](#data-visualization)
-5. [Modelling](#modelling-overview)
+3. [Data Preprocessing](#Data-Preprocessing)
+4. [Data Visualization](#Data-Visualization)
+5. [Model Development](#Model-Development)
 6. [Results and Conclusion](#results-and-conclusion)
+7. [Challenges and Future Directions](#Challenges-and-Future-Directions)
 
 ## Project Overview
 
