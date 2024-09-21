@@ -5,8 +5,9 @@ AUTHORS: Meysam Motaharfar and Mohammad Ali Izadifar
 
 ### Table of Contents
 1. [Project Overview](#project-overview)
-2. [Data Preprocessing](#data-gathering-and-preprocessing)
-3. [Data Visualization](#data-visualization)
+2. [Dataset Overview and Feature Dictionary](#Dataset-Overview-and-Feature-Dictionary)
+3. [Data Preprocessing](#data-gathering-and-preprocessing)
+4. [Data Visualization](#data-visualization)
 5. [Modelling](#modelling-overview)
 6. [Results and Conclusion](#results-and-conclusion)
 
@@ -17,7 +18,7 @@ Traffic accidents remain a significant public safety challenge, necessitating pr
 <b> Key Performance Indicator: </b>
 The model's effectiveness is evaluated based on its recall performance, which measures the model's ability to correctly identify severe crashes from the total number of actual severe crashes. A high recall indicates that the model successfully captures most of the critical cases, ensuring fewer severe accidents are missed.
 
-## Data set description
+## Dataset Overview and Feature Dictionary
 
 The dataset for this project was sourced from the Louisiana Department of Transportation and Development (LA DOTD), covering detailed records of traffic accidents from 2016 to 2021. Each record in the dataset provides comprehensive details about each traffic accident, including geographic coordinates, road conditions, vehicle characteristics, driver demographics, environmental factors, and the severity of the crash. The dataset contains approximately 49,336 records with 54 features, ensuring a rich basis for analysis. Among these 54 features 30 of them (24 categorical, 3 numerical, and 3 boolean) were selected for the purpose of this study. Here is the dictionary for data set: 
 
