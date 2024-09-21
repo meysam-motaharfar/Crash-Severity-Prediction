@@ -58,7 +58,7 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 
 ## Data Preprocessing and Visulaization
 
-![image](https://github.com/user-attachments/assets/da538a9b-f71e-4e1c-bbcb-e540dfd9743d)
+![Crash Severity Conditions](images/The_number_of_crashes_for_different_severity_conditions.png)
 
 ## Model Development 
 
