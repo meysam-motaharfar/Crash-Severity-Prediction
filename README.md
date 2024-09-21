@@ -62,6 +62,8 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 
 ## Results and Conclusion
 
+<img width="539" alt="image" src="https://github.com/user-attachments/assets/fc893868-badd-4d4b-a67f-71fc346dadd8">
+
 ## Challenges and Future Directions
 
 
