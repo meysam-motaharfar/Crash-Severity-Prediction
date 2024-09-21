@@ -48,7 +48,7 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 | VIOLATIONS_CD        | Type of vehicle involved (e.g., car, truck, motorcycle)         | Categorical |
 | VISION_OBSCURE_CD         | Age of the driver involved in the crash                        | Categorical   |
 | ACCESS_CNTL_CD  | Whether alcohol was involved (True/False)                      | Boolean     |
-| MAN_COLL_CD       | Speed limit at the location of the crash                       | Numerical   |
+| MAN_COLL_CD       | Speed limit at the location of the crash                       | Categorical  |
 | DR_AGE      | Location description (e.g., intersection, highway)             | Numerical |
 | LATITUDE           | Type of road (e.g., urban, rural, freeway)                     | Numerical |
 | LONGITUDE           | Type of road (e.g., urban, rural, freeway)                     | Numerical |
