@@ -11,7 +11,24 @@ AUTHORS: Meysam Motaharfar and Mohammad Ali Izadifar
 6. [Results and Conclusion](#results-and-conclusion)
 
 ## Project Overview
-The primary aim of this project is to develop a predictive model that can accurately assess the severity of vehicle crashes. This model serves as a crucial tool for policymakers, traffic Traffic accidents remain a significant public safety challenge, necessitating efficient predictive models to evaluate crash severity. To this end, various machine learning techniques are employed to predict the severity of traffic crashes using a dataset encompassing multiple factors such as road conditions, vehicle conditions, traffic conditions, and driver attributes. Through comprehensive exploratory data analysis, key predictors of crash severity were identified. Several predictive models were developed, including logistic regression, decision trees, random forests, K-nearest neighbors, multilayer perceptrons, and support vector classifiers. Techniques such as SMOTE and Random Over Sampling were employed to address class imbalance. A significant positive aspect of this study is the implementation of a flexible and generalized pipeline in the code. This pipeline automates data handling, including the imputation of missing values and preprocessing steps. It allows for the selection and comparison of different encoders, samplers, and classifiers, ultimately providing predictions. Results indicated that logistic regression and random forests performed robustly, with logistic regression emerging as a reliable baseline model due to its balanced performance and robustness against class imbalance. Ensemble methods like random forests showed promise but required careful tuning to mitigate overfitting. More complex models like K-nearest neighbors and multilayer perceptrons exhibited varying degrees of overfitting, suggesting the need for further refinement. The findings underscore the potential of machine learning to significantly enhance road safety by providing insights into the patterns of traffic accidents and their severity. This can assist policymakers and traffic management systems in real-time decision-making and deploying preventive measures effectively.
+
+The primary goal of this project is to develop a predictive model that accurately assesses the severity of vehicle crashes. Traffic accidents remain a significant public safety challenge, necessitating predictive models to evaluate crash severity effectively. The developed model can serve as a crucial tool for policymakers, traffic management authorities, and public safety officials by enabling proactive interventions to improve road safety.
+
+### Methodology
+
+In this study, various machine learning techniques were employed to predict crash severity based on multiple factors, such as road conditions, vehicle conditions, traffic conditions, and driver attributes. The dataset, sourced from detailed traffic accident records, underwent comprehensive exploratory data analysis to identify key predictors of crash severity.
+
+The following models were tested:
+
+- Logistic Regression
+- Decision Trees
+- Random Forests
+- K-Nearest Neighbors
+- Support Vector classifier
+- Multilayer Perceptrons
+
+To address class imbalance in the data, techniques such as SMOTE (Synthetic Minority Over-sampling Technique) and Random Over Sampling were implemented. A flexible and generalized pipeline was developed to automate data handling, including the imputation of missing values, preprocessing, and the selection of different encoders, samplers, and classifiers.
+
 
 <b> Key Performance Indicator: </b>
 How efficiently does the model predict the crash severity compared to actuall severities?
