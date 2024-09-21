@@ -6,11 +6,10 @@ AUTHORS: Meysam Motaharfar and Mohammad Ali Izadifar
 ### Table of Contents
 1. [Project Overview](#Project-Overview)
 2. [Dataset Overview and Feature Dictionary](#Dataset-Overview-and-Feature-Dictionary)
-3. [Data Preprocessing](#Data-Preprocessing)
-4. [Data Visualization](#Data-Visualization)
-5. [Model Development](#Model-Development)
-6. [Results and Conclusion](#results-and-conclusion)
-7. [Challenges and Future Directions](#Challenges-and-Future-Directions)
+3. [Data Preprocessing and Visulaization](#Data-Preprocessing-and-Visualization)
+4. [Model Development](#Model-Development)
+5. [Results and Conclusion](#results-and-conclusion)
+6. [Challenges and Future Directions](#Challenges-and-Future-Directions)
 
 ## Project Overview
 
