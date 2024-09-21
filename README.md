@@ -49,7 +49,7 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 | LATITUDE            | Latitude of the crash location                                 | Numerical   |
 | LONGITUDE           | Longitude of the crash location                                | Numerical   |
 | PEDESTRIAN          | Whether pedestrians were involved                              | Boolean     |
-| INTERSECTION        | Whether the crash occurred at an intersection                  | Bolean |
+| INTERSECTION        | Whether the crash occurred at an intersection                  | Boolean |
 | ALCOHOL             | Whether alcohol was involved                                   | Boolean     |
 | DRUGS               | Whether drugs were involved                                    | Boolean     |
 
