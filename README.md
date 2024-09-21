@@ -12,26 +12,10 @@ AUTHORS: Meysam Motaharfar and Mohammad Ali Izadifar
 
 ## Project Overview
 
-The primary goal of this project is to develop a predictive model that accurately assesses the severity of vehicle crashes. Traffic accidents remain a significant public safety challenge, necessitating predictive models to evaluate crash severity effectively. The developed model can serve as a crucial tool for policymakers, traffic management authorities, and public safety officials by enabling proactive interventions to improve road safety.
-
-### Methodology
-
-In this study, various machine learning techniques were employed to predict crash severity based on multiple factors, such as road conditions, vehicle conditions, traffic conditions, and driver attributes. The dataset, sourced from detailed traffic accident records, underwent comprehensive exploratory data analysis to identify key predictors of crash severity.
-
-The following models were tested:
-
-- Logistic Regression
-- Decision Trees
-- Random Forests
-- K-Nearest Neighbors
-- Support Vector classifier
-- Multilayer Perceptrons
-
-To address class imbalance in the data, techniques such as SMOTE (Synthetic Minority Over-sampling Technique) and Random Over Sampling were implemented. A flexible and generalized pipeline was developed to automate data handling, including the imputation of missing values, preprocessing, and the selection of different encoders, samplers, and classifiers.
-
+The primary goal of this project is to develop a predictive model that accurately assesses the severity of vehicle crashes. Traffic accidents remain a significant public safety challenge, necessitating predictive models to evaluate crash severity effectively. In this study, various machine learning techniques were employed to predict crash severity based on multiple factors, such as road conditions, vehicle conditions, traffic conditions, and driver attributes. The dataset, sourced from detailed traffic accident records, underwent comprehensive exploratory data analysis to identify key predictors of crash severity. To address class imbalance in the data, techniques such as SMOTE (Synthetic Minority Over-sampling Technique) and Random Over Sampling were implemented. A flexible and generalized pipeline was developed to automate data handling, including the imputation of missing values, preprocessing, and the selection of different encoders, samplers, and classifiers. The findings can be summarized as follows: 1) Logistic Regression emerged as a reliable baseline model due to its balanced performance and robustness in handling class imbalance, 2) Random Forests, as an ensemble method, showed promise, but required careful hyperparameter tuning to avoid overfitting, and 3) More complex models, like K-Nearest Neighbors and Multilayer Perceptrons, exhibited varying degrees of overfitting, indicating the need for further refinement. The developed model can serve as a crucial tool for policymakers, traffic management authorities, and public safety officials by enabling proactive interventions to improve road safety.
 
 <b> Key Performance Indicator: </b>
-How efficiently does the model predict the crash severity compared to actuall severities?
+The model's effectiveness is evaluated based on its recall performance, which measures the model's ability to correctly identify severe crashes from the total number of actual severe crashes. A high recall indicates that the model successfully captures most of the critical cases, ensuring fewer severe accidents are missed.
 
 ## Data set description
 
