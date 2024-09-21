@@ -22,35 +22,36 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 
 | Feature Name        | Description                                                    | Data Type   |
 |---------------------|----------------------------------------------------------------|-------------|
+| SEVERITY_CD         | Unique identifier for each crash                               | Categorical |
 | ROAD_COND_CD          | Unique identifier for each crash                               | Categorical |
 | ROAD_TYPE_CD      | Severity level of the crash (e.g., minor, severe, fatal)        | Categorical |
-| DSURF_COND_CD                | Date of the crash                                              | Date        |
-| SURF_TYPE_CD                | Time of the crash                                              | Time        |
-| PAVEMENT_TYPE            | Latitude of the crash location                                 | Numerical   |
-| SHOULDER_TYPE_PRI           | Longitude of the crash location                                | Numerical   |
+| SURF_COND_CD                | Date of the crash                                              | Categorical        |
+| SURF_TYPE_CD                | Time of the crash                                              | Categorical       |
+| PAVEMENT_TYPE            | Latitude of the crash location                                 |Categorical   |
+| SHOULDER_TYPE_PRI           | Longitude of the crash location                                | Categorical  |
 | PRI_ROAD_TYPE   | Weather condition at the time of the crash                     | Categorical |
 | ROAD_REL_CD        | Condition of the road surface (e.g., dry, wet, icy)             | Categorical |
 | ALIGNMENT_CD        | Type of vehicle involved (e.g., car, truck, motorcycle)         | Categorical |
-| Driver_Age          | Age of the driver involved in the crash                        | Numerical   |
-| ACCESS_CNTL_CD  | Whether alcohol was involved (True/False)                      | Boolean     |
-| INTERSECTION        | Speed limit at the location of the crash                       | Numerical   |
+| ACCESS_CNTL_CD  | Whether alcohol was involved (True/False)                      | Categorical    |
+| INTERSECTION        | Speed limit at the location of the crash                       | Categorical   |
 | VEH_COND_CD      | Location description (e.g., intersection, highway)             | Categorical |
 | VEH_LIGHTING_CD     | Lighting conditions (e.g., day, night, dawn)                   | Categorical |
 | VEH_TYPE_CD           | Type of road (e.g., urban, rural, freeway)                     | Categorical |
 | DR_SEX          | Unique identifier for each crash                               | Categorical |
-| ALCOHOL      | Severity level of the crash (e.g., minor, severe, fatal)        | Categorical |
-| DRUGS                | Date of the crash                                              | Date        |
-| LIGHTING_CD                | Time of the crash                                              | Time        |
-| WEATHER_CD            | Latitude of the crash location                                 | Numerical   |
-| PEDESTRIAN           | Longitude of the crash location                                | Numerical   |
+| ALCOHOL      | Severity level of the crash (e.g., minor, severe, fatal)        | Bolean |
+| DRUGS                | Date of the crash                                              | Bolean       |
+| LIGHTING_CD                | Time of the crash                                              | Categorical        |
+| WEATHER_CD            | Latitude of the crash location                                 | Categorical   |
+| PEDESTRIAN           | Longitude of the crash location                                | Bolean  |
 | TRAFF_CNTL_CD   | Weather condition at the time of the crash                     | Categorical |
 | TRAFF_CNTL_COND_CD       | Condition of the road surface (e.g., dry, wet, icy)             | Categorical |
 | VIOLATIONS_CD        | Type of vehicle involved (e.g., car, truck, motorcycle)         | Categorical |
-| VISION_OBSCURE_CD         | Age of the driver involved in the crash                        | Numerical   |
+| VISION_OBSCURE_CD         | Age of the driver involved in the crash                        | Categorical   |
 | ACCESS_CNTL_CD  | Whether alcohol was involved (True/False)                      | Boolean     |
 | MAN_COLL_CD       | Speed limit at the location of the crash                       | Numerical   |
-| DR_AGE      | Location description (e.g., intersection, highway)             | Categorical |
-| LATITUDE           | Type of road (e.g., urban, rural, freeway)                     | Categorical |
+| DR_AGE      | Location description (e.g., intersection, highway)             | Numerical |
+| LATITUDE           | Type of road (e.g., urban, rural, freeway)                     | Numerical |
+| LONGITUDE           | Type of road (e.g., urban, rural, freeway)                     | Numerical |
 
 ## Modelling Overview
 
