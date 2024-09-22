@@ -63,6 +63,8 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 The above bar chart depicts the distribution of traffic accidents based on the severity condition recorded. The severity categories include No Injury, Complaint (non-serious injury), Moderate injury, Severe injury, and Fatal injury. As it is obvious from this chart, the data set is highly imbalanced and sampling method have to be employed to be able to build a reliable classifier. 
 
 
+![location of fatal accidents](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/Fatal%20accident.png)
+
 ## Model Development 
 
 ## Results and Conclusion
