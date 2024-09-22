@@ -58,7 +58,7 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 
 ## Data Preprocessing and Visulaization
 
-![The number of crashes for different severity conditions](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/The%20number%20of%20crashes%20for%20different%20severity%20conditions.jpg)
+![Number of accidents by severity condition]([https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/The%20number%20of%20crashes%20for%20different%20severity%20conditions.jpg](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/Number%20of%20accidents%20by%20severity%20condition.jpg))
 
 The above bar chart depicts the distribution of traffic accidents based on the severity condition recorded. The severity categories include No Injury, Complaint (non-serious injury), Moderate injury, Severe injury, and Fatal injury. As it is obvious from this chart, the data set is highly imbalanced and sampling method have to be employed to be able to build a reliable classifier. 
 
