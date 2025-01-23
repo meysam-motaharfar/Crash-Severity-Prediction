@@ -67,7 +67,7 @@ where the severity categories include No Injury, Complaint (non-serious injury),
 
 ![location of fatal accidents](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/Fatal%20accident.png)
 
-from whihc it is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes. For more details please read the [report](Report.pdf) and for codes see this [notebook](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Data%20Preprocessing%20and%20Data%20Visualization.ipynb).
+from whihc it is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes. For more details please read the [report](Report.pdf) and for codes see this [notebook](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Data%20Preprocessing%20and%20Data%20Visualization.ipynb) .
 
 ## Model Development 
 
@@ -85,13 +85,13 @@ The predictive modeling efforts yielded insightful results regarding crash sever
     <img width="700" alt="image" src="Figs/LR-Test.png">
 </div>
 
-and the following chart illustrates the performance of all models used in this project on test data set :
+and the following chart illustrates the performance of all models used in this project on test data set:
 
 <div style="text-align: center;">
     <img width="700" alt="image" src="https://github.com/user-attachments/assets/fc893868-badd-4d4b-a67f-71fc346dadd8">
 </div>
 
-For more details please read the [report](Report.pdf) and for codes see this [notebook](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Crash%20Severity%20Model.ipynb)
+For more details please read the [report](Report.pdf) and for codes see this [notebook](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Crash%20Severity%20Model.ipynb) .
   
 ## Challenges and Future Directions
 
