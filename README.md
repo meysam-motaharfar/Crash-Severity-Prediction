@@ -71,6 +71,8 @@ from whihc it is evident that the majority of fatal accidents occur on highways,
 
 ## Model Development 
 
+For this project, various machine learning models were employed to predict crash severity, each offering unique strengths and considerations. Logistic Regression was used as a baseline model due to its simplicity, interpretability, and balanced performance on imbalanced data. Random Forests, an ensemble learning method, demonstrated strong predictive capabilities but required careful hyperparameter tuning to prevent overfitting. Additionally, more complex models like Multilayer Perceptrons (MLPs) were explored, though their susceptibility to overfitting highlighted the need for further optimization. The performance of these models was primarily evaluated using recall, emphasizing the accurate identification of severe crashes
+
 ## Results and Conclusion
 
 <div style="text-align: center;">
