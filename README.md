@@ -9,7 +9,6 @@ AUTHORS: Meysam Motaharfar and Mohammad Ali Izadifar
 3. [Data Preprocessing and Visulaization](#Data-Preprocessing-and-Visualization)
 4. [Model Development](#Model-Development)
 5. [Results and Conclusion](#results-and-conclusion)
-6. [Challenges and Future Directions](#Challenges-and-Future-Directions)
 
 ## Project Overview
 
@@ -93,7 +92,6 @@ and the following chart illustrates the performance of all models used in this p
 
 For more details please read the [report](Report.pdf) and for codes see this [notebook](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Crash%20Severity%20Model.ipynb) .
   
-## Challenges and Future Directions
 
 
 
