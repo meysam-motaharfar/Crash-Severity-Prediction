@@ -70,8 +70,17 @@ The above bar chart depicts the distribution of traffic accidents based on the s
 ## Results and Conclusion
 
 <div style="text-align: center;">
+    <img width="700" alt="image" src="Figs/LR-Train.png">
+</div>
+
+<div style="text-align: center;">
+    <img width="700" alt="image" src="Figs/LR-Test.png">
+</div>
+
+<div style="text-align: center;">
     <img width="700" alt="image" src="https://github.com/user-attachments/assets/fc893868-badd-4d4b-a67f-71fc346dadd8">
 </div>
+
   
 ## Challenges and Future Directions
 
