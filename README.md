@@ -65,6 +65,8 @@ The above bar chart depicts the distribution of traffic accidents based on the s
 
 ![location of fatal accidents](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/Fatal%20accident.png)
 
+The figure above illustrates the spatial distribution of fatal accidents in Baton Rouge. It is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes
+
 ## Model Development 
 
 ## Results and Conclusion
