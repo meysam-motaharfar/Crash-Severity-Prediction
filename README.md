@@ -58,14 +58,16 @@ The dataset for this project was sourced from the Louisiana Department of Transp
 
 ## Data Preprocessing and Visulaization
 
+
+In this study, comprehensive data preprocessing and visualization were employed to prepare the traffic accident dataset for predictive modeling. The preprocessing pipeline automated key steps, including handling missing values, encoding categorical features, and addressing class imbalance using SMOTE and Random Oversampling. Exploratory Data Analysis (EDA) was conducted to visualize the spatial and temporal patterns of accidents, identify correlations between crash severity and key predictors such as road and traffic conditions, and highlight imbalances in class distributions. Below is the distribution of traffic accidents based on the severity condition
+
 ![Number of accidents by severity condition](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/Number%20of%20accidents%20by%20severity%20condition.jpg)
 
-The above bar chart depicts the distribution of traffic accidents based on the severity condition recorded. The severity categories include No Injury, Complaint (non-serious injury), Moderate injury, Severe injury, and Fatal injury. As it is obvious from this chart, the data set is highly imbalanced and sampling method have to be employed to be able to build a reliable classifier. 
-
+where the severity categories include No Injury, Complaint (non-serious injury), Moderate injury, Severe injury, and Fatal injury. As it is obvious from this chart, the data set is highly imbalanced and sampling method have to be employed to be able to build a reliable classifier. The following figure illustrates the spatial distribution of fatal accidents in Baton Rouge
 
 ![location of fatal accidents](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/Fatal%20accident.png)
 
-The figure above illustrates the spatial distribution of fatal accidents in Baton Rouge. It is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes
+from whihc it is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes
 
 ## Model Development 
 
