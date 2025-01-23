@@ -91,7 +91,7 @@ and the following chart illustrates the performance of all models used in this p
     <img width="700" alt="image" src="https://github.com/user-attachments/assets/fc893868-badd-4d4b-a67f-71fc346dadd8">
 </div>
 
-For more details please read the [report](Report.pdf) and for codes see this [notebook]([https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Data%20Preprocessing%20and%20Data%20Visualization.ipynb](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Crash%20Severity%20Model.ipynb))
+For more details please read the [report](Report.pdf) and for codes see this [notebook](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Crash%20Severity%20Model.ipynb)
   
 ## Challenges and Future Directions
 
