@@ -67,13 +67,15 @@ where the severity categories include No Injury, Complaint (non-serious injury),
 
 ![location of fatal accidents](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/Fatal%20accident.png)
 
-from whihc it is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes. For more details please read the [report](Report.pdf) and for codes see this [notebook](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Data%20Preprocessing%20and%20Data%20Visualization.ipynb)
+from whihc it is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes. For more details please read the [report](Report.pdf) and for codes see this [notebook](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Data%20Preprocessing%20and%20Data%20Visualization.ipynb).
 
 ## Model Development 
 
 For this project, various machine learning models were employed to predict crash severity, each offering unique strengths and considerations. Logistic Regression was used as a baseline model due to its simplicity, interpretability, and balanced performance on imbalanced data. Random Forests, an ensemble learning method, demonstrated strong predictive capabilities but required careful hyperparameter tuning to prevent overfitting. Additionally, more complex models like Multilayer Perceptrons (MLPs) were explored, though their susceptibility to overfitting highlighted the need for further optimization. The performance of these models was primarily evaluated using recall, emphasizing the accurate identification of severe crashes
 
 ## Results and Conclusion
+
+The predictive modeling efforts yielded insightful results regarding crash severity. Logistic Regression emerged as a robust baseline model, offering balanced performance and effective handling of class imbalance, with moderate recall scores. Random Forests exhibited strong predictive capabilities, outperforming Logistic Regression in some cases, though the risk of overfitting necessitated careful hyperparameter tuning. Multilayer Perceptrons (MLPs) demonstrated the potential for higher accuracy but faced challenges with overfitting, suggesting the need for more extensive regularization and parameter optimization. Overall, the models highlighted critical features influencing crash severity, such as road conditions, traffic density, and vehicle attributes. Here is the performance of Logistic Regression model for training and test data set:
 
 <div style="text-align: center;">
     <img width="700" alt="image" src="Figs/LR-Train.png">
@@ -83,10 +85,13 @@ For this project, various machine learning models were employed to predict crash
     <img width="700" alt="image" src="Figs/LR-Test.png">
 </div>
 
+and the following chart illustrates the performance of all models used in this project on test data set :
+
 <div style="text-align: center;">
     <img width="700" alt="image" src="https://github.com/user-attachments/assets/fc893868-badd-4d4b-a67f-71fc346dadd8">
 </div>
 
+For more details please read the [report](Report.pdf) and for codes see this [notebook]([https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Data%20Preprocessing%20and%20Data%20Visualization.ipynb](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Codes/Crash%20Severity%20Model.ipynb))
   
 ## Challenges and Future Directions
 
