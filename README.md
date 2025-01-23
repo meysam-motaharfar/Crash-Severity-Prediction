@@ -67,7 +67,7 @@ where the severity categories include No Injury, Complaint (non-serious injury),
 
 ![location of fatal accidents](https://github.com/meysam-motaharfar/Crash-Severity-Prediction/blob/main/Figs/Fatal%20accident.png)
 
-from whihc it is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes. For more details please read the [report](Report.pdf)
+from whihc it is evident that the majority of fatal accidents occur on highways, which is expected given the combination of high speeds and reduced reaction times, increasing the likelihood of severe outcomes. For more details please read the [report](Report.pdf) and for codes see this [notebook](Codes/Data Preprocessing and Data Visualization.ipynb)
 
 ## Model Development 
 
